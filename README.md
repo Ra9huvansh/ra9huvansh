@@ -1,7 +1,14 @@
 <div align="center">
 
 <!-- Animated Glitch Title -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=940&lines=Ra9huvansh+%7C+Building+the+Decentralized+Future;Student+%7C+Developer+%7C+Future+Operator;DeFi+Architect+%7C+AI+Infrastructure+Engineer" alt="Typing SVG" />
+<div align="center">
+  
+<h3>THE</h3>
+<h1 style="margin-top: -20px; font-size: 4em; letter-spacing: 8px;">OPERATOR</h1>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=940&lines=DeFi+Architect+%7C+AI+Infrastructure+Engineer;Building+Tomorrow's+Decentralized+Systems;Protocol+Designer+%7C+Infrastructure+Operator" alt="Typing SVG" />
+
+</div>
 
 <!-- Tagline with mysterious styling -->
 <h3 style="color: #ff0000;">
@@ -14,33 +21,21 @@
 
 </div>
 
-<!-- Matrix Rain Effect Header -->
-```ascii
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   ██████╗  █████╗  █████╗ ██╗  ██╗██╗   ██╗██╗   ██╗ █████╗ ███╗   ██╗███████╗██╗  ██╗
-║   ██╔══██╗██╔══██╗██╔══██╗██║  ██║██║   ██║██║   ██║██╔══██╗████╗  ██║██╔════╝██║  ██║
-║   ██████╔╝███████║╚██████║███████║██║   ██║██║   ██║███████║██╔██╗ ██║███████╗███████║
-║   ██╔══██╗██╔══██║ ╚═══██║██╔══██║██║   ██║╚██╗ ██╔╝██╔══██║██║╚██╗██║╚════██║██╔══██║
-║   ██║  ██║██║  ██║ █████╔╝██║  ██║╚██████╔╝ ╚████╔╝ ██║  ██║██║ ╚████║███████║██║  ██║
-║   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝ ╚═════╝   ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
-║                                                                              ║
-║              [SYSTEM STATUS: ONLINE] | [THREAT LEVEL: CLASSIFIED]           ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
 <div align="center">
 
 ### 🎯 **MISSION DIRECTIVE**
 
 ```yaml
-identity: Student + Developer → Future Infrastructure Operator
-current_focus: 
+designation: Infrastructure Operator | Protocol Architect
+clearance_level: CLASSIFIED
+operational_status: ACTIVE
+current_operations: 
   - Architecting decentralized finance protocols
-  - Building AI agentic systems that don't break
-  - Designing infrastructure for tomorrow's data centers
-vision: Own and operate next-gen data infrastructure
-philosophy: "Code is law, infrastructure is power"
+  - Engineering AI agentic infrastructure
+  - Building systems designed to scale infinitely
+endgame: Control next-generation data infrastructure
+directive: "Code is law. Infrastructure is power. Ownership is everything."
+threat_assessment: EXTREME
 ```
 
 </div>
@@ -214,11 +209,12 @@ function airdrop() external {
 <div align="center">
 
 ```yaml
-location: "Somewhere in the digital void"
-status: "Building in the shadows"
-current_mission: "Architecting the infrastructure of tomorrow"
-next_target: "Own data centers | Operate at scale"
-warning: "Approach with caution. Code is volatile."
+location: "REDACTED"
+operational_mode: "Shadow Development"
+active_mission: "Infrastructure Domination"
+target_acquisition: "Data Center Ownership | Scale Beyond Limits"
+warning_level: "CRITICAL - Unpredictable systems ahead"
+access_level: "UNAUTHORIZED ENTRY WILL BE LOGGED"
 ```
 
 <!-- Visitor Counter -->
