@@ -173,24 +173,18 @@ function airdrop() external {
 
 <div align="center">
 
-<!-- GitHub Stats with dark theme - using alternative instance -->
-<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Ra9huvansh&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9"/>
-<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Ra9huvansh&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9"/>
-
-<br>
-
 <!-- Streak Stats -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ra9huvansh&theme=dark&hide_border=true&background=0D1117&stroke=00ff41&ring=00ff41&fire=ff0000&currStreakLabel=00ff41" alt="GitHub Streak" />
 
-<br>
+<br><br>
 
 <!-- 3D Contribution Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ra9huvansh&theme=react-dark&hide_border=true&area=true&bg_color=0d1117&color=00ff41&line=00ff41&point=ff0000" alt="Contribution Graph" />
 
-<br>
+<br><br>
 
 <!-- GitHub Profile Summary Cards -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ra9huvansh&theme=dark" alt="Profile Summary" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ra9huvansh&theme=github_dark" alt="Profile Summary" />
 
 </div>
 
