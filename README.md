@@ -1,14 +1,7 @@
 <div align="center">
 
 <!-- Animated Glitch Title -->
-<div align="center">
-  
-<h3>THE</h3>
-<h1 style="margin-top: -20px; font-size: 4em; letter-spacing: 8px;">OPERATOR</h1>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=940&lines=DeFi+Architect+%7C+AI+Infrastructure+Engineer;Building+Tomorrow's+Decentralized+Systems;Protocol+Designer+%7C+Infrastructure+Operator" alt="Typing SVG" />
-
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=940&lines=DeFi+Architect+%7C+AI+Infrastructure+Engineer;Protocol+Designer+%7C+Infrastructure+Operator;Building+Tomorrow's+Decentralized+Systems" alt="Typing SVG" />
 
 <!-- Tagline with mysterious styling -->
 <h3 style="color: #ff0000;">
@@ -20,6 +13,21 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </div>
+
+<!-- Matrix Rain Effect Header -->
+```ascii
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   ██████╗ ██████╗ ███████╗██████╗  █████╗ ████████╗ ██████╗ ██████╗         ║
+║  ██╔═══██╗██╔══██╗██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██╔═══██╗██╔══██╗        ║
+║  ██║   ██║██████╔╝█████╗  ██████╔╝███████║   ██║   ██║   ██║██████╔╝        ║
+║  ██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗██╔══██║   ██║   ██║   ██║██╔══██╗        ║
+║  ╚██████╔╝██║     ███████╗██║  ██║██║  ██║   ██║   ╚██████╔╝██║  ██║        ║
+║   ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝        ║
+║                                                                              ║
+║              [SYSTEM STATUS: ONLINE] | [THREAT LEVEL: CLASSIFIED]           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
 <div align="center">
 
