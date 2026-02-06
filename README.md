@@ -173,9 +173,9 @@ function airdrop() external {
 
 <div align="center">
 
-<!-- GitHub Stats with dark theme -->
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ra9huvansh&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ra9huvansh&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9"/>
+<!-- GitHub Stats with dark theme - using alternative instance -->
+<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Ra9huvansh&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9"/>
+<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Ra9huvansh&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9"/>
 
 <br>
 
@@ -193,6 +193,7 @@ function airdrop() external {
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ra9huvansh&theme=dark" alt="Profile Summary" />
 
 </div>
+
 <!-- Animated Line Break -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
