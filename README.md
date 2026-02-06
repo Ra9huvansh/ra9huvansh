@@ -197,7 +197,7 @@ function airdrop() external {
 
 ```ascii
 ┌─────────────────────────────────────────────────────────────┐
-│  ⚠️  SECURE COMMUNICATION CHANNELS AVAILABLE  ⚠️           │
+│     ⚠️  SECURE COMMUNICATION CHANNELS AVAILABLE  ⚠️         │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -243,11 +243,11 @@ access_level: "UNAUTHORIZED ENTRY WILL BE LOGGED"
 ```ascii
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║   "In a world of code, I am the architect of chaos."          ║
-║   "Where others see systems, I see opportunities."             ║
-║   "The future isn't built—it's compiled."                      ║
+║      "In a world of code, I am the architect of chaos."        ║
+║       "Where others see systems, I see opportunities."         ║
+║           "The future isn't built—it's compiled."              ║
 ║                                                                ║
-║              >> END TRANSMISSION <<                            ║
+║                  >> END TRANSMISSION <<                        ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
