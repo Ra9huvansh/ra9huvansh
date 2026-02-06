@@ -177,17 +177,22 @@ function airdrop() external {
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ra9huvansh&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ra9huvansh&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9"/>
 
+<br>
+
 <!-- Streak Stats -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ra9huvansh&theme=dark&hide_border=true&background=0D1117&stroke=00ff41&ring=00ff41&fire=ff0000&currStreakLabel=00ff41" alt="GitHub Streak" />
+
+<br>
 
 <!-- 3D Contribution Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ra9huvansh&theme=react-dark&hide_border=true&area=true&bg_color=0d1117&color=00ff41&line=00ff41&point=ff0000" alt="Contribution Graph" />
 
+<br>
+
 <!-- Trophy Stats -->
-<img src="https://github-profile-trophy.vercel.app/?username=Ra9huvansh&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=Ra9huvansh&theme=discord&no-frame=true&no-bg=false&margin-w=4&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A" alt="Trophies" />
 
 </div>
-
 <!-- Animated Line Break -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
