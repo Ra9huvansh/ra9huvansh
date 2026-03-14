@@ -12,7 +12,7 @@
 
 ## `> whoami`
 
-I'm a protocol engineer obsessed with the plumbing of finance. Smart contracts that custody real capital. AI inference systems that can't afford downtime. Backend architecture where a bug isn't a ticket — it's a liquidation event.
+I'm a protocol engineer obsessed with the plumbing of finance. Smart contracts that custody real capital. AI inference systems that can't afford downtime. Backend architecture where a bug isn't a ticket, it's a liquidation event.
 
 Most of my work lives at the uncomfortable intersection where **money meets code with no undo button**.
 
