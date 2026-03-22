@@ -4,7 +4,7 @@
 
 <br>
 
-*I find where billions move on broken rails — and I fix the rails.*
+*I find where billions move on broken rails and I fix the rails.*
 
 </div>
 
