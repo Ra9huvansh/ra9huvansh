@@ -101,7 +101,7 @@ Gas-optimized ERC-20 distribution system using Merkle tree proofs. Built for pro
 
 ## `> cat /etc/motd`
 
-I'm looking for the next system to tear apart and rebuild — somewhere capital flows at scale on infrastructure that hasn't been rethought in decades. Trade finance, cross-border settlement, insurance underwriting, commodity logistics — the kind of systems where fixing one protocol-level inefficiency moves nine figures.
+I'm looking for the next system to tear apart and rebuild somewhere capital flows at scale on infrastructure that hasn't been rethought in decades. Trade finance, cross-border settlement, insurance underwriting, commodity logistics, the kind of systems where fixing one protocol-level inefficiency moves nine figures.
 
 If you're building in that space, or breaking into it, I want to talk.
 
@@ -122,6 +122,3 @@ If you're building in that space, or breaking into it, I want to talk.
 
 <br>
 
-```
-EOF
-```
