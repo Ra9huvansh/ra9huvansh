@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1500&color=E0E0E0&center=true&vCenter=true&width=900&height=50&lines=Ra9huvansh;protocol+engineer+%E2%80%A2+infra+builder+%E2%80%A2+defi+native" alt="Typing SVG" />
-
-<br>
-
-*I find where billions move on broken rails and I fix the rails.*
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1500&color=E0E0E0&center=true&vCenter=true&width=900&height=50&lines=Ra9huvansh;capital-markets+infrastructure+%E2%80%A2+FIX+protocol+%E2%80%A2+Java" alt="Typing SVG" />
 
 </div>
 
@@ -12,11 +8,28 @@
 
 ## `> whoami`
 
-I'm a protocol engineer obsessed with the plumbing of finance. Smart contracts that custody real capital. AI inference systems that can't afford downtime. Backend architecture where a bug isn't a ticket, it's a liquidation event.
+I work on the plumbing of electronic markets: FIX engines, order gateways, and the post-trade and settlement systems that sit behind them. Mostly Java, some Solidity. I like problems where correctness is not optional, where a dropped message or a drifted sequence number is a real loss, not a retryable error.
 
-Most of my work lives at the uncomfortable intersection where **money meets code with no undo button**.
+Final-year CS (BTech+MTech) at JIIT Noida. Most of what's worth looking at below is merged into other people's projects.
 
-I don't build demos. I build things that hold.
+<br>
+
+## `> git log --author=me --merged`
+
+**[quickfix-j/quickfixj#1181](https://github.com/quickfix-j/quickfixj/pull/1181)** — merged into QFJ 3.0.1
+Fixed a session-lifecycle bug where a disabled, disconnected FIX session skipped its scheduled reset. An early `return` in `Session.next()` sat above the `SessionSchedule` block, so messages queued via `sendToTarget()` (and the advanced sequence numbers behind them) were never cleared at the scheduled boundary, causing message loss when the counterparty reconnected and logged on. Moved the guard below the schedule block so the reset runs; added a regression test reproducing the exact scenario. Reviewed line-by-line by the maintainer.
+
+**[besu-eth/besu#10127](https://github.com/besu-eth/besu/pull/10127)** — Hyperledger Besu
+Made three hard-coded DiscV5 peer-discovery constants (interval, timeout, minimum peer ratio) configurable via CLI flags. Defaults unchanged, so existing behaviour is preserved.
+
+**[kafbat/kafka-ui#1768](https://github.com/kafbat/kafka-ui/pull/1768)** — merged into 1.5
+One-line fix so `fillKey()` passes the actual record headers to the key deserializer instead of empty ones, matching `fillValue()`. Unblocks custom serdes that resolve their schema from a registry via headers. Added a unit test covering it.
+
+**[redis/jedis#4482](https://github.com/redis/jedis/pull/4482)** — Redis Java client
+Stabilised a flaky CI failover test: a 20ms freeze window could expire mid-loop on a loaded runner and trigger a spurious second failover attempt. Widened the timing windows proportionally. Test-only, no production change.
+
+**[foundry-rs/forge-std#837](https://github.com/foundry-rs/forge-std/pull/837)** — Foundry standard library
+Added NatSpec documentation across all public/internal functions in `StdAssertions.sol` and `StdInvariant.sol`. Comment-only.
 
 <br>
 
@@ -26,44 +39,36 @@ I don't build demos. I build things that hold.
 <tr>
 <td width="50%" valign="top">
 
-### 🏦 Merix Holdings — DeFi Protocol
-Collateralized stability protocol with Chainlink oracle integration. Handles pricing, liquidation logic, and redemption flows on mainnet.
+### Valoris Systems
+Distributed trade lifecycle simulator modelling the full pipeline from compliance through settlement. Event-driven Spring Boot microservices over Apache Kafka, FIX ingress, Redis, PostgreSQL, T+2 settlement and MiFID II reporting.
 
-`Solidity` `Foundry` `Chainlink` `ERC-20`
-
-**→ Deployed. Holding real value.**
+`Java 21` `Spring Boot` `Kafka` `FIX` `PostgreSQL`
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 Cortex — AI Inference Platform
-Multi-model routing engine with sub-100ms latency targets, automatic failover, and cost-aware model selection. Production-grade, not a weekend wrapper.
+### Merix Holdings
+Overcollateralized DeFi stablecoin protocol with Chainlink price oracles. 91.65% test coverage, 20 invariants, CI/CD with Slither and Aderyn.
 
-`Python` `Docker` `PostgreSQL` `REST APIs`
-
-**→ 99.99% uptime target. Serving live traffic.**
+`Solidity` `Foundry` `Chainlink`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 📡 Network Recon — Monitoring Fork
-Forked & extended NetAlertX for distributed asset discovery and continuous network monitoring. Contributed upstream.
+### Heung Syndicate
+On-chain IPO lifecycle infrastructure for post-August-2025 HKEX rules: sealed commit-reveal bookbuilding, Merkle-verified allocation, real-time float monitoring. Deployed on HashKey Chain. Top 7 finalist, DeFi track, HashKey Chain Horizon Hackathon (Hong Kong).
 
-`Python` `Network Protocols` `Open Source`
-
-**→ 5.6k+ stars on the parent project.**
+`Solidity` `HashKey Chain`
 
 </td>
 <td width="50%" valign="top">
 
-### 💧 Merkle Airdrop Engine
-Gas-optimized ERC-20 distribution system using Merkle tree proofs. Built for protocols that need to distribute tokens to thousands without burning a treasury on gas.
+### ForgeFIX/J  *(work in progress)*
+Low-latency FIX order gateway in Java 21. QuickFIX/J ingress, an Aeron/Agrona message bus, an in-memory matching engine, Chronicle Queue persistence, SBE-encoded internal messages, JMH latency benchmarks.
 
-`Solidity` `Foundry` `Merkle Trees`
-
-**→ Audited. Optimized. Battle-tested.**
+`Java 21` `Aeron` `Chronicle Queue` `SBE` `QuickFIX/J`
 
 </td>
 </tr>
@@ -75,50 +80,22 @@ Gas-optimized ERC-20 distribution system using Merkle tree proofs. Built for pro
 
 <div align="center">
 
-**Contracts** &nbsp;&nbsp; ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![Foundry](https://img.shields.io/badge/Foundry-363636?style=flat-square&logo=ethereum&logoColor=white) ![Hardhat](https://img.shields.io/badge/Hardhat-363636?style=flat-square&logo=ethereum&logoColor=white)
+**Systems** &nbsp;&nbsp; ![Java](https://img.shields.io/badge/Java-363636?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-363636?style=flat-square&logo=spring-boot&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-363636?style=flat-square&logo=apachekafka&logoColor=white)
 
-**Systems** &nbsp;&nbsp; ![Java](https://img.shields.io/badge/Java-363636?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-363636?style=flat-square&logo=spring-boot&logoColor=white) ![Python](https://img.shields.io/badge/Python-363636?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-363636?style=flat-square&logo=javascript&logoColor=white)
+**Markets** &nbsp;&nbsp; ![FIX](https://img.shields.io/badge/FIX_Protocol-363636?style=flat-square) ![Aeron](https://img.shields.io/badge/Aeron-363636?style=flat-square) ![Chronicle](https://img.shields.io/badge/Chronicle_Queue-363636?style=flat-square)
 
-**Infra** &nbsp;&nbsp; ![Docker](https://img.shields.io/badge/Docker-363636?style=flat-square&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-363636?style=flat-square&logo=postgresql&logoColor=white) ![Ethereum](https://img.shields.io/badge/Ethereum-363636?style=flat-square&logo=ethereum&logoColor=white) ![Chainlink](https://img.shields.io/badge/Chainlink-363636?style=flat-square&logo=chainlink&logoColor=white)
+**Contracts** &nbsp;&nbsp; ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![Foundry](https://img.shields.io/badge/Foundry-363636?style=flat-square&logo=ethereum&logoColor=white) ![Chainlink](https://img.shields.io/badge/Chainlink-363636?style=flat-square&logo=chainlink&logoColor=white)
 
-</div>
-
-<br>
-
-## `> uptime --stats`
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ra9huvansh&theme=transparent&hide_border=true&ring=888888&fire=E0E0E0&currStreakLabel=888888&sideLabels=888888&currStreakNum=E0E0E0&sideNums=E0E0E0&dates=555555" alt="GitHub Streak" width="600" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ra9huvansh&theme=github-compact&hide_border=true&area=true&bg_color=00000000&color=888888&line=E0E0E0&point=ffffff" alt="Contribution Graph" width="800" />
+**Data** &nbsp;&nbsp; ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-363636?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-363636?style=flat-square&logo=redis&logoColor=white)
 
 </div>
 
 <br>
 
-## `> cat /etc/motd`
-
-I'm looking for the next system to tear apart and rebuild somewhere capital flows at scale on infrastructure that hasn't been rethought in decades. Trade finance, cross-border settlement, insurance underwriting, commodity logistics, the kind of systems where fixing one protocol-level inefficiency moves nine figures.
-
-If you're building in that space, or breaking into it, I want to talk.
-
-<br>
-
 <div align="center">
 
-[![Twitter](https://img.shields.io/badge/@Raghuvansh95-363636?style=flat-square&logo=x&logoColor=white)](https://x.com/Raghuvansh95) &nbsp;
+[![X](https://img.shields.io/badge/@ra9huvansh-363636?style=flat-square&logo=x&logoColor=white)](https://x.com/ra9huvansh) &nbsp;
 [![LinkedIn](https://img.shields.io/badge/raghuvansh--rastogi-363636?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raghuvansh-rastogi-98b5ab205/) &nbsp;
-[![Telegram](https://img.shields.io/badge/telegram-363636?style=flat-square&logo=telegram&logoColor=white)](https://t.me/dolandtrump92) &nbsp;
 [![Email](https://img.shields.io/badge/ra9huvansh@gmail.com-363636?style=flat-square&logo=gmail&logoColor=white)](mailto:ra9huvansh@gmail.com)
 
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=Ra9huvansh&color=808080&style=flat-square&label=views" alt="Profile Views" />
-
 </div>
-
-<br>
-
