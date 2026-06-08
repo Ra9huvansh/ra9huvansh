@@ -10,7 +10,7 @@
 
 I work on the plumbing of electronic markets: FIX engines, order gateways, and the post-trade and settlement systems that sit behind them. Mostly Java, some Solidity. I like problems where correctness is not optional, where a dropped message or a drifted sequence number is a real loss, not a retryable error.
 
-Final-year CS (BTech+MTech) at JIIT Noida. Most of what's worth looking at below is merged into other people's projects.
+Most of what's worth looking at below is merged into other people's projects.
 
 <br>
 
